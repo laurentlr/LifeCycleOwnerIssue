@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
                 linear.addView(TextView(this).apply { text = it })
                 //only last emitted element is catch
                 //Result is: "second"
-                //Expected: "start, second"
+                //Expected: "first, second"
             })
 
         myViewModel.initialize()
