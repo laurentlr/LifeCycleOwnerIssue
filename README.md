@@ -1,5 +1,5 @@
 # LifeCycleOwner and ViewModelScope Issue
-The [viewModelScope](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.2.0) is using <b>Dispatchers.Main.immediate</b> since [2.2.2-alpha04](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.2.0-alpha04)</br>
+The [viewModelScope](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.2.0) is using <b>Dispatchers.Main.immediate</b> since [2.2.0-alpha04](https://developer.android.com/jetpack/androidx/releases/lifecycle#2.2.0-alpha04)</br>
 In the case of immediate dispatching (main thread) and couple with a <b>LiveDataOwner</b> only the <b>last</b> MutableLiveData is emitted.
 
 <h2>ViewModel</h2>
